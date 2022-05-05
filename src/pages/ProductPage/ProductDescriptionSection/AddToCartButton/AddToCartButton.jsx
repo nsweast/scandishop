@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import { CartContext } from '../../../../context/CartContext';
 import {
-  AddProductToCartButton,
   AddedToCartButton,
+  AddProductToCartButton,
   OutOfStockButton,
 } from './AddToCartButton.styles';
 

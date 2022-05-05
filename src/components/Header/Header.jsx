@@ -7,11 +7,10 @@ import { CartContext } from '../../context/CartContext';
 import MiniCart from '../MiniCart';
 import {
   ActionsContainer,
+  CategoriesContainer,
   HeaderContainer,
   HeaderSection,
   LogoContainer,
-  CategoriesContainer,
-  StyledLink,
 } from './Header.styles';
 import { TransparentBackground } from '../common/TransparentBackground';
 import CurrencySwitchTab from '../CurrencySwitchTab';

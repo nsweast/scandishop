@@ -34,6 +34,7 @@ export const CartProductTitle = styled.div`
   display: flex;
   flex-direction: column;
   font-size: x-large;
+
   span {
     font-weight: 600;
   }

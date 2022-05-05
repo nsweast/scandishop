@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import { MainImage, SmallImage } from '../../common/Images.styles';
+import {
+  MainImage,
+  SmallImage,
+} from '../../../components/common/Images.styles';
 import {
   ImagesContainer,
   SmallImagesContainer,

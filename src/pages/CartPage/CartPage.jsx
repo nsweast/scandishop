@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import Attribute from '../common/Attribute';
-import Counter from '../common/Counter/Counter';
+import Attribute from '../../components/common/Attribute';
+import Counter from '../../components/common/Counter/Counter';
 import { CartContext } from '../../context/CartContext';
 import {
+  CartAttributesSection,
   CartItemLeftSection,
   CartItemRightSection,
-  CartProductTitle,
-  CartPageProduct,
   CartPageContainer,
-  CartAttributesSection,
+  CartPageProduct,
+  CartProductTitle,
 } from './CartPage.styles';
-import { AttributesContainer } from '../common/Attribute/Attribute.styles';
+import { AttributesContainer } from '../../components/common/Attribute/Attribute.styles';
 import { isAttributeSelected } from '../../helpers';
-import Price from '../common/Price';
-import Slider from '../common/Slider';
+import Price from '../../components/common/Price';
+import Slider from '../../components/common/Slider';
 
 class CartPage extends Component {
   static contextType = CartContext;

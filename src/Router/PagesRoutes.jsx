@@ -1,10 +1,10 @@
 import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom';
 import { Component } from 'react';
 import Header from '../components/Header';
-import ProductsListPage from '../components/ProductsListPage';
-import ProductPage from '../components/ProductPage';
-import CartPage from '../components/CartPage';
-import { Container } from '../components/MainPage/MainPage.styles';
+import ProductsListPage from '../pages/ProductsListPage';
+import ProductPage from '../pages/ProductPage';
+import CartPage from '../pages/CartPage';
+import { Container } from '../pages/MainPage/MainPage.styles';
 
 class Page extends Component {
   render() {

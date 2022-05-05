@@ -1,6 +1,6 @@
 import styled from 'styled-components/macro';
 import { ProductInListContainer } from '../ProductInList.styles';
-import { ALL_COLORS } from '../../../../constants';
+import { ALL_COLORS } from '../../../constants';
 
 export const CartListContainer = styled.div`
   position: absolute;

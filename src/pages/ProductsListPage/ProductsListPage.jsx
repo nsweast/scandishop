@@ -5,8 +5,8 @@ import {
   ProductsList,
   ProductsListContainer,
 } from './ProductsListPage.styles';
-import LoadingMessage from '../common/Loader';
-import ProductInList from './ProductInList';
+import LoadingMessage from '../../components/common/Loader';
+import ProductInList from '../../components/ProductInList';
 import { useParams } from 'react-router-dom';
 import { Query } from '@apollo/client/react/components';
 import { ProductsListQuery } from '../../queries';

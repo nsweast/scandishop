@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {
   AddedToCartInList,
-  CartListContainer,
   CartIcon,
+  CartListContainer,
 } from './AddToCartFronList.styles';
 
 class AddToCartFromList extends Component {

@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import Attribute from '../../common/Attribute';
+import Attribute from '../../../components/common/Attribute';
 import { CartContext } from '../../../context/CartContext';
 import AddToCartButton from './AddToCartButton';
 import {
-  ItemDescription,
   ItemAttribute,
+  ItemDescription,
   ItemPrice,
   ItemTitle,
   ProductDescriptionContainer,
 } from './ProductDescriptionSection.styles';
 import { checkInCart } from '../../../helpers';
-import { AttributesContainer } from '../../common/Attribute/Attribute.styles';
-import Price from '../../common/Price';
+import { AttributesContainer } from '../../../components/common/Attribute/Attribute.styles';
+import Price from '../../../components/common/Price';
 
 class ProductDescriptionSection extends Component {
   state = {

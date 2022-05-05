@@ -1,4 +1,4 @@
-import MainPage from './components/MainPage';
+import MainPage from './pages/MainPage';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 
 const client = new ApolloClient({

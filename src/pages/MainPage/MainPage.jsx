@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { CartContext } from '../../context/CartContext';
-import PagesRoutes from '../../pages/PagesRoutes';
+import PagesRoutes from '../../Router/PagesRoutes';
 
 class MainPage extends Component {
   state = {

@@ -1,5 +1,5 @@
 import styled from 'styled-components/macro';
-import { ALL_COLORS } from '../../../constants';
+import { ALL_COLORS } from '../../constants';
 import { Link } from 'react-router-dom';
 
 export const ProductLink = styled(Link)`

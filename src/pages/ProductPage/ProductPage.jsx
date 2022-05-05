@@ -4,7 +4,7 @@ import ProductDescriptionSection from './ProductDescriptionSection';
 import { useParams } from 'react-router-dom';
 import { CartContext } from '../../context/CartContext';
 import { ProductInfoContainer } from './ProductPage.styles';
-import LoadingMessage from '../common/Loader';
+import LoadingMessage from '../../components/common/Loader';
 import { Query } from '@apollo/client/react/components';
 import { ProductQuery } from '../../queries';
 

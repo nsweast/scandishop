@@ -7,11 +7,10 @@ import {
   ProductOutOfStock,
 } from './ProductInList.styles';
 import AddToCartFromList from './AddToCartListButton/AddToCartFromList';
-import { CartContext } from '../../../context/CartContext';
+import { CartContext } from '../../context/CartContext';
 import { useParams } from 'react-router-dom';
-import { checkInCart } from '../../../helpers';
-import Price from '../../common/Price';
-import { StyledLink } from '../../Header/Header.styles';
+import { checkInCart } from '../../helpers';
+import Price from '../common/Price';
 
 class ProductInList extends Component {
   static contextType = CartContext;

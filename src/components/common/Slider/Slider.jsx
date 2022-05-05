@@ -1,6 +1,5 @@
 import { Component } from 'react';
-import { SliderContainer } from './Slider.styles';
-import { CartImage } from './Slider.styles';
+import { CartImage, SliderContainer } from './Slider.styles';
 import Arrow from './Arrow';
 
 class Slider extends Component {
